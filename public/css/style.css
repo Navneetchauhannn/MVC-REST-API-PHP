@@ -1,0 +1,16 @@
+.required-field::after {
+    content: "*";
+    color: red;
+    margin-left:2px;
+}
+body {
+    background-color: #9de2ff;
+    font-family: 'Roboto', sans-serif;
+}
+.full-width{
+    margin-top: 100px;
+}
+form {
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
+}

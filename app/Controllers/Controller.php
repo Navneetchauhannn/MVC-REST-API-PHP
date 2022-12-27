@@ -14,10 +14,10 @@
 
         function __construct() {
             parent::__construct();
-            $whatToUse = basename(__FILE__); 
-            $t = substr($_SERVER['PHP_SELF'], strpos($_SERVER['PHP_SELF'], $whatToUse) + strlen($whatToUse));
-            if($t) {
-                switch($t) {
+            $baseDir = basename(__FILE__); 
+            $location = substr($_SERVER['PHP_SELF'], strpos($_SERVER['PHP_SELF'], $baseDir) + strlen($baseDir));
+            if($location) {
+                switch($location) {
                     case 'ct/app/index.php/':
                       if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         $enrollment = $_POST["enrollment"];

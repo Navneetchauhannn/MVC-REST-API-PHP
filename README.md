@@ -10,7 +10,7 @@ Project includes PHP as a backend language and MySql database.
 
 Project includes email Authentication and CRUD operation on different records.
 
-# Connection with MySql using PHP
+# Connecting to MySql using PHP
 
 ```php
 class Model {

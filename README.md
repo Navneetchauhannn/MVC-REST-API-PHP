@@ -1,4 +1,4 @@
-# using PHP MVC REST API
+# Using PHP MVC REST API
 
 Representational state transfer (REST) is a software architectural that seperates models, views and controller component and interconnectes them. it is a client-server architecture.
 
